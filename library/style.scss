@@ -18,10 +18,15 @@ body {
     align-items: center;
 }
 
+.book-view {
+    display: flex;
+    flex-wrap: wrap;
+}
 .book {
     width: 20vw;
     height: 50vh;
     background-color: orange;
+    margin: 0.75em 1em;
 
     min-width: 167px;
     min-height: 213px;
