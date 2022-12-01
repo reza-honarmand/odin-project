@@ -1,6 +1,6 @@
 let btn = document.getElementById('btnID')
 
-btn.addEventListener('click', (e) => {
+btn.addEventListener('click', () => {
     const newContent = document.createTextNode("")
 
     let div = document.createElement("div")
